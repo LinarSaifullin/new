@@ -1,0 +1,39 @@
+ul {
+    list-style: nome;
+    display: inline-block;
+    margin: 0;
+    padding-left: 0;
+}
+
+a {
+    text-decoration: nome;
+    color: black;
+    font-weight: bold;
+    background-color: orange;
+    width: 100%;
+    padding: 20px 0px;
+    display: inline-block;
+}
+
+a:hover {
+    background-color: azure;
+    box-shadow: 4px -10px 20px 1px
+    lightgray;
+}
+
+li {
+    border: 1px solid black;
+    text-align: center;
+}
+ul li:nth-child(3) a {
+    background-color: green;
+    color:white;
+}
+
+.first + li {
+    border: none
+}
+
+h1 ~ h1 {
+    color: red;
+}

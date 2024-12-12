@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    margin: 0;
+    border: 1px solid #000;
+    width: 800px;
+    height: 150px;
+}
+.head1 {
+    margin-bottom: 20px;
+}
+.head2 {
+    margin-top: 60px;
+    background-color: lightcoral;
+}
+span {
+    /*border: 1px solid #000;*/
+    background-color: pink;
+}
+.span1 {
+    margin-bottom: 40px;
+}
+
+.span2 {
+    margin-left: 20px;
+}

@@ -1,0 +1,55 @@
+.box1, 
+.left>div,
+.right>div {
+
+    border: 2px solid #000;
+}
+.box1 {
+    padding: 40px;
+    width: 380px;
+}
+.left {
+    width: 80px;
+    display: inline-block;
+    margin-right: 40px;
+    
+}
+.right {
+    width: 240px;
+    display: inline-block;
+
+
+
+}
+.item1 {
+    width: 80px;
+    height: 70px;
+    background-color: red;
+    margin-bottom: 40px;
+    margin-right: 40px;
+}
+.item3 {
+    width: 80px;
+    height: 180px;
+    background-color: blue;
+    margin-right: 40px;
+}
+.item2 {
+    width: 240px;
+    height: 180px;
+    background-color: green;
+    margin-bottom: 40px;
+    vertical-align: top;
+}
+.item4 {
+    width: 240px;
+    height: 70px;
+    background-color: yellow;
+}
+
+.box2 {
+    width: 300px;
+    height: 150px;
+    border: 1px solid #000;
+    margin: 0 auto;
+}
